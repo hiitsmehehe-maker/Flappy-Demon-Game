@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: #70c5ce;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+#game-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background: url("asset/background.png") no-repeat center center;
+  background-size: cover;
+}
+
+#bird {
+  width: 70px;
+  height: 60px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 40%;
+  background: url("asset/demon.png") no-repeat center center;
+  background-size: cover;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+#start-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#start-btn:hover {
+  background-color: #218838;
+  width: 10%;
+  transition: all 1s ease-out;
+}
+
+
+.pipe {
+  position: absolute;
+  width: 114px;
+  height: 337px;
+  background-color: red;
+}
+
+.top-pipe {
+  top: 0;
+  border-bottom: 5px solid lightcoral;
+}
+
+.bottom-pipe {
+  border-top: 5px solid darkred
+}
+
+#difficulty-select {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
