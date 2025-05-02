@@ -10,7 +10,7 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0;
-  background: url("asset/background.png") no-repeat center center;
+  background: url("/asset/background.png") no-repeat center center;
   background-size: cover;
 }
 
@@ -21,7 +21,7 @@ body {
   z-index: 1;
   top: 50%;
   left: 40%;
-  background: url("asset/demon.png") no-repeat center center;
+  background: url("/asset/demon.png") no-repeat center center;
   background-size: cover;
 }
 
