@@ -221,6 +221,7 @@ function checkForTheTitle(){
     if(title==="Flappy Pixel Game"){
         bird.style.background = "url('/asset/Pixel.png') no-repeat center center";
         bird.style.backgroundSize = "cover";
+        
     }
 }
 
