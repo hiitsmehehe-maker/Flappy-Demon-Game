@@ -189,7 +189,7 @@ function getDifficultySettings() {
   }
 }
 
-const backgroundMusic = new Audio("sounds/vine boom.mp3");
+const backgroundMusic = new Audio("/sounds/vine boom.mp3");
 backgroundMusic.loop = true;
 backgroundMusic.volume = 0.5;
 
@@ -203,25 +203,25 @@ function checkForTheTitle(){
     let title = document.title;
 
     if(title==="Flappy Jesus Game"){
-        game_container.style.background = "url('/asset/heaven.png') no-repeat center center";
+        game_container.style.background = "url('asset/heaven.png') no-repeat center center";
         game_container.style.backgroundSize = "cover";
 
-        bird.style.background = "url('/asset/jesus.png') no-repeat center center";
+        bird.style.background = "url('asset/jesus.png') no-repeat center center";
         bird.style.backgroundSize = "cover";
 
     }else {
-        game_container.style.background = "url('/asset/background.png') no-repeat center center";
-        game_container.style.backgroundSize = "cover";
+        // game_container.style.background = "url('asset/background.png') no-repeat center center";
+        // game_container.style.backgroundSize = "cover";
 
-        bird.style.background = "url('/asset/demon.png') no-repeat center center";
-        bird.style.backgroundSize = "cover";
+        // bird.style.background = "url('asset/demon.png') no-repeat center center";
+        // bird.style.backgroundSize = "cover";
 
     }
 
     if(title==="Flappy Pixel Game"){
         bird.style.background = "url('/asset/Pixel.png') no-repeat center center";
         bird.style.backgroundSize = "cover";
-        
+
     }
 }
 
