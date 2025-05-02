@@ -199,34 +199,34 @@ function setScore(newScore) {
 }
 
 
-function checkForTheTitle(){
-    let title = document.title;
+// function checkForTheTitle(){
+//     let title = document.title;
 
-    if(title==="Flappy Jesus Game"){
-        game_container.style.background = "url('asset/heaven.png') no-repeat center center";
-        game_container.style.backgroundSize = "cover";
+//     if(title==="Flappy Jesus Game"){
+//         game_container.style.background = "url('asset/heaven.png') no-repeat center center";
+//         game_container.style.backgroundSize = "cover";
 
-        bird.style.background = "url('asset/jesus.png') no-repeat center center";
-        bird.style.backgroundSize = "cover";
+//         bird.style.background = "url('asset/jesus.png') no-repeat center center";
+//         bird.style.backgroundSize = "cover";
 
-    }else {
-        // game_container.style.background = "url('asset/background.png') no-repeat center center";
-        // game_container.style.backgroundSize = "cover";
+//     }else {
+//         // game_container.style.background = "url('asset/background.png') no-repeat center center";
+//         // game_container.style.backgroundSize = "cover";
 
-        // bird.style.background = "url('asset/demon.png') no-repeat center center";
-        // bird.style.backgroundSize = "cover";
+//         // bird.style.background = "url('asset/demon.png') no-repeat center center";
+//         // bird.style.backgroundSize = "cover";
 
-    }
+//     }
 
-    if(title==="Flappy Pixel Game"){
-        bird.style.background = "url('/asset/Pixel.png') no-repeat center center";
-        bird.style.backgroundSize = "cover";
+//     if(title==="Flappy Pixel Game"){
+//         bird.style.background = "url('/asset/Pixel.png') no-repeat center center";
+//         bird.style.backgroundSize = "cover";
 
-    }
-}
+//     }
+// }
 
 
 
-let themeInterval = setInterval(()=>{
-    checkForTheTitle()
-}, 100)
+// let themeInterval = setInterval(()=>{
+//     checkForTheTitle()
+// }, 100)
