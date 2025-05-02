@@ -210,11 +210,11 @@ function checkForTheTitle(){
         bird.style.backgroundSize = "cover";
 
     }else {
-        // game_container.style.background = "url('asset/background.png') no-repeat center center";
-        // game_container.style.backgroundSize = "cover";
+        game_container.style.background = "url('asset/background.png') no-repeat center center";
+        game_container.style.backgroundSize = "cover";
 
-        // bird.style.background = "url('asset/demon.png') no-repeat center center";
-        // bird.style.backgroundSize = "cover";
+        bird.style.background = "url('asset/demon.png') no-repeat center center";
+        bird.style.backgroundSize = "cover";
 
     }
 
